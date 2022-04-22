@@ -1,0 +1,84 @@
+h1 {
+  color: red;
+padding-left: 30px;
+  font-weight: bold;
+  font-size: 3em;
+}
+.wrap{
+  position: fixed;
+  background-color: white;
+}
+body {
+  background-color: #6c757d;
+}
+
+.heading {
+  display: flex;
+  margin: 0px;
+  transition: 1s;
+  background-color: #6c757d;
+  justify-content: space-between;
+  width: 100%;
+}
+.heading ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-top: 40px;
+  padding-right: 1em;
+
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+span {
+  color: black;
+}
+body {
+  background-color: #ece4db;
+}
+img {
+  height: 40em;
+  width: 25em;
+  float: right;
+  margin-right: 20px;
+ margin-bottom: 40px;
+}
+.Education {
+  background-color: #9d6969;
+  height: 45em;
+  width: 100%;
+}
+.Experince {
+  background-color: rgb(163, 163, 125);
+  height: 45em;
+  width: 100%;
+}
+h2{
+  background-color: black;
+  color: white;
+  width: 40%;
+  font-size: 40px;
+  margin-left: 30px;
+
+  letter-spacing: 10px;
+}
+
+.ECA {
+  background-color: rgb(193, 183, 165);
+  height: 45em;
+  width: 100%;
+  color: black;
+}
+.about {
+  /* padding-top: 10em; */
+  height: 40em;
+  width: 100%;
+  word-wrap: wrap;
+  background-color: #b7b7a4;
+}
+#aboutme{
+  color: black;
+  /* margin-top: 10em; */
+  padding-top: 10em;
+}
