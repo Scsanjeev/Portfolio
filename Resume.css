@@ -13,21 +13,28 @@ h1 {
 .heading {
   display: flex;
   margin: 0px;
-  transition: 1s;
-  background-color: #6c757d;
+  transition: .3s ease-out;
+  background-color: #b7b7a4;
   justify-content: space-between;
   width: 100%;
 }
 .jumbotron {
   display: inline-block;
+  border-radius: 40px;
+  border-collapse: separate;
+  perspective: 10px;
   height: 20em;
   width: 30%;
   margin-top: 8em;
   margin-left: 2%;
   justify-content: center;
-  background-color: #023047;
-  
-  
+  box-shadow: 2px 2px 22px rgba(0, 0, 0,0.6);
+  border-radius: 40px; 
+  transition: .3s box-shadow, .3s margin-top ease-in-out ;
+}
+.jumbotron:hover{
+  box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.9);
+  margin-top: 6em;
 }
 .heading ul {
   display: flex;
