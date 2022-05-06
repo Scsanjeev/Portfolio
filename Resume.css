@@ -1,83 +1,34 @@
+.heading {
+  display: flex;
+  margin: 0px;
+  transition: .3s ease-out;
+  background-color: #216869;
+  justify-content: space-between;
+  width: 100%;
+}
+#aboutme {
+  color: #d8e2dc;
+}
+#aboutme h1 {
+  padding-top: 120px;
+}
+.Home {
+  height: 40em;
+  width: 100%;
+  word-wrap: wrap;
+  background-color: #62929e;
+}
+.Home p {
+  font-weight: italic;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 33em;
+}
 h1 {
   color: red;
   padding-left: 30px;
   font-weight: bold;
   font-size: 3em;
-}
-.wrap {
-  position: fixed;
-  background-color: #94d2bd;
-}
-
-.heading {
-  display: flex;
-  margin: 0px;
-  transition: 0.3s ease-out;
-  background-color: #b7b7a4;
-  justify-content: space-between;
-  width: 100%;
-}
-.jumbotron {
-  display: inline-block;
-  border-radius: 40px;
-  border-collapse: separate;
-  perspective: 10px;
-  height: 20em;
-  width: 30%;
-  margin-top: 8em;
-  margin-left: 2%;
-  justify-content: center;
-  box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.6);
-  border-radius: 40px;
-  transition: 0.3s box-shadow, 0.3s margin-top ease-in-out;
-}
-.jumbotron:hover {
-  box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.9);
-  margin-top: 6em;
-}
-.heading ul {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
-  padding-top: 40px;
-  padding-right: 1em;
-
-  font-weight: bold;
-  color: blue;
-  cursor: pointer;
-}
-span {
-  color: rgb(143, 34, 34);
-}
-
-img {
-  height: 40em;
-  width: 25em;
-  float: right;
-  border-radius: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: 20px;
-  margin-bottom: 40px;
-}
-.Education {
-  display: flex;
-
-  height: fit-content;
-  background-color: #9d6969;
-  width: 100%;
-}
-.edutitle {
-  color: white;
-  font-size: 75px;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-}
-.Experince {
-  background-color: rgb(163, 163, 125);
-  height: 45em;
-  width: 100%;
 }
 h2 {
   background-color: black;
@@ -89,39 +40,147 @@ h2 {
   letter-spacing: 10px;
 }
 
+.Skills {
+  display: flex;
+
+  height: 35em;
+  justify-content: center;
+  background-color: #3a506b;
+  width: 100%;
+}
+.skillstitle {
+  color: solid black;
+  font-size: 75px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+.jumbotro {
+  background-color: #5c6b73;
+  display: inline-block;
+  border-radius: 40px;
+  height: 365px;
+  width: 335px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 8em;
+  margin-left: 2%;
+  justify-content: center;
+  box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  transition: 0.3s box-shadow, 0.3s margin-top ease-in-out;
+}
+.jumbotro:hover {
+  background-color: #0a9396;
+  box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.9);
+  margin-top: 6em;
+}
+.jumbotro p {
+  color: black;
+  text-align: center;
+  margin-top: 200px;
+  font-weight: bold;
+}
+.jumbotro img {
+  padding-top: 0px;
+  height: 180px;
+  margin: 0 0 0 0;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.Education {
+  display: inline-block;
+  height: 30em;
+  width: 100%;
+  background-color: #62929e;
+}
+.edubox {
+  border-radius: 10px;
+  width: 80%;
+  background-color: #246a73;
+  height: 90px;
+  margin-top: 2em;
+  margin-left: 10%;
+  text-align: center;
+  justify-content: center;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.edubox:hover {
+  background-color: #0a9396;
+}
+.Hobbies {
+  overflow: hidden;
+  color: white;
+  height: 30em;
+  width: 100%;
+  background-color: #246a73;
+}
+
+.Hobbies .list {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  float: left;
+  font-weight: bold;
+}
+.Hobbies .list ul {
+  margin-top: 30%;
+}
+.hobbyimg {
+  float: right;
+  width: 50%;
+  border: none;
+  box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.9);
+}
+.hobbyimg img {
+  margin: 0px auto;
+  padding: auto;
+  width: 100%;
+  height: 25em;
+}
+
+.heading ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-top: 40px;
+  padding-right: 1em;
+
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+
+img {
+  height: 35em;
+  width: 25em;
+  float: right;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
 .ContactMe {
   display: grid;
-  background-color: rgb(193, 183, 165);
+  background-color: #62929e;
   height: 30em;
   width: 100%;
   color: black;
 }
-.Home {
-  /* padding-top: 10em; */
-  height: 50em;
-  width: 100%;
-  word-wrap: wrap;
-  background-color: #b7b7a4;
-}
-#aboutme {
-  color: #d8e2dc;
-  /* margin-top: 10em; */
-  padding-top: 10em;
-}
 #Social {
   display: flex;
   gap: 4em;
-
   justify-content: center;
   height: fit-content;
 }
-.Exp{ 
-  height: 40em;
-  width: 100%;
-  background-color: red;
+
+
+.wrap {
+  position: fixed;
+  background-color: #94d2bd;
 }
-.ECA{
-  height: 40cm;
-  width:100% ;
-  background-color: green;
+span {
+  color: rgb(143, 34, 34);
 }
