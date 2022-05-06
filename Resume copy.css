@@ -1,0 +1,188 @@
+
+h1 {
+  color: red;
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 3em;
+}
+.wrap {
+  position: fixed;
+  background-color: #94d2bd;
+}
+
+.heading {
+  display: flex;
+  margin: 0px;
+  transition: 0.3s ease-out;
+  background-color: #b7b7a4;
+  justify-content: space-between;
+  width: 100%;
+}
+.jumbotro {
+  background-color: #94d2bd;
+  display: inline-block;
+  border-radius: 40px;
+  height: 365px;
+  width: 335px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 8em;
+  margin-left: 2%;
+  justify-content: center;
+  box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  transition: 0.3s box-shadow, 0.3s margin-top ease-in-out;
+}
+.jumbotro:hover {
+  background-color: #0a9396 ;
+  box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.9);
+  margin-top: 6em;
+}
+.heading ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-top: 40px;
+  padding-right: 1em;
+
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+span {
+  color: rgb(143, 34, 34);
+}
+
+img {
+  height: 35em;
+  width: 25em;
+  float: right;
+  border-radius: 10px;
+  padding-top: 5px;
+  /* padding-bottom: 5px; */
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.Education {
+  display: flex;
+
+  height: 35em;
+  justify-content: center;
+  background-color: #9d6969;
+  width: 100%;
+}
+.edutitle {
+  color: white;
+  font-size: 75px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+.Experince {
+  background-color: rgb(163, 163, 125);
+  height: 45em;
+  width: 100%;
+}
+h2 {
+  background-color: black;
+  color: white;
+  width: 40%;
+  font-size: 40px;
+  margin-left: 30px;
+
+  letter-spacing: 10px;
+}
+
+.ContactMe {
+  display: grid;
+  background-color: rgb(193, 183, 165);
+  height: 30em;
+  width: 100%;
+  color: black;
+}
+.Home {
+
+  height: 40em;
+  width: 100%;
+  word-wrap: wrap;
+  background-color: #b7b7a4;
+}
+#aboutme {
+  color: #d8e2dc;
+  /* margin-top: 10em; */
+  /* padding-top: 10em; */
+}
+#Social {
+  display: flex;
+  gap: 4em;
+
+  justify-content: center;
+  height: fit-content;
+}
+.Exp{ 
+  display: inline-block;
+  height: 30em;
+  width: 100%;
+  background-color: #635B5A;
+}
+.ECA{
+  
+  overflow: hidden;
+  
+  height: 30em;
+  width:100% ;
+  background-color: green;
+}
+.jumbotro p{
+  color: black;
+text-align: center;
+  margin-top:200px;
+  font-weight: bold;
+  
+}
+.jumbotro img{
+  padding-top: 0px;
+  height: 180px;
+  margin: 0 0 0 0;
+  /* margin-top: 0px; */
+  width: 100%;
+  border-radius: 30px;
+
+}
+.edubox{
+  border-radius: 10px;
+  width: 80%;
+  background-color: #457b9d;
+  height: 90px;
+  margin-top: 2em;
+  margin-left: 10%;
+  text-align: center;
+  justify-content: center;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.edubox:hover{
+  background-color: #a8dadc;
+}
+.ECA .list{
+  width: 50%;
+  margin-top:25%;
+  /* background-color: yellow; */
+  text-align: center;
+float: left;
+font-weight: bold;
+
+}
+.hobbyimg{
+  float: right;
+  /* background-color: red; */
+  width: 50%;
+
+
+}
+.hobbyimg img{
+  margin: 0px auto;
+  padding: auto;
+  width: 100%;
+  height: 25em;
+}
